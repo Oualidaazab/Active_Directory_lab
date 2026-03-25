@@ -21,14 +21,14 @@ This repository contains a fully functional Active Directory lab environment des
 
 ##  Features
 
-* Domain setup (lab.local)
+* Domain setup (aazaboualid.local)
 * Active Directory Users & Groups
 * Group Policy Objects (GPO)
 * DNS configuration
 * Domain join configuration
 * SMB shares and permissions
 
-## 🔐 Offensive Security (Kali Linux)
+## Offensive Security (Kali Linux)
 
 * Network scanning (Nmap)
 * SMB/LDAP enumeration
