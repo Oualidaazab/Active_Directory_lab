@@ -3,7 +3,7 @@ Import-Module ActiveDirectory
 
 #  1 Create a new Organizational Unit
 $ouName = "TestLabOU"
-$ouPath = "OU=$testusers,DC=aazaboualid,DC=local" # change this 
+$ouPath = "OU=$ouName,DC=aazaboualid,DC=local" # change this 
 
 # Check if OU exists first to avoid errors
 if (-not (Get-ADOrganizationalUnit -Filter "Name -eq '$ouName'" -ErrorAction SilentlyContinue)) {
